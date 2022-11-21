@@ -1,5 +1,4 @@
 ﻿using BepInEx;
-using BepInEx.Logging;
 using HarmonyLib;
 
 namespace ExampleMod
@@ -11,7 +10,6 @@ namespace ExampleMod
         private const string ModAuthor  = "reddust9";
         private const string ModGuid = "com.reddust9.7in7.day1";
         private const string ModVersion = "1.0.0";
-        private static ManualLogSource? Log;
         internal void Awake()
         {
             // Creating new harmony instance
@@ -20,16 +18,6 @@ namespace ExampleMod
             // Applying patches
             harmony.PatchAll();
             Logger.LogInfo($"{ModName} successfully loaded! Made by {ModAuthor}");
-            Log = Logger;
-        }
-        [HarmonyPatch(typeof(Weapon), "FixedUpdate")]
-        internal class Patch__Weapon__FixedUpdate
-        {
-            public static void Postfix(ref Weapon __instance) 
-            {
-                Log?.LogInfo($"RRM: {__instance._recoilReductionMod}");
-                __instance._recoilReductionMod = 0.2f; // lower the value, higher the base weapon recoil // 1 is vanilla normal
-            }
         }
     }
 }
