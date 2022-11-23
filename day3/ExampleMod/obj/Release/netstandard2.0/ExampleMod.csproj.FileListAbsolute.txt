@@ -10,3 +10,15 @@
 /home/ecorous/temp/ExampleMod/ExampleMod/bin/Release/netstandard2.0/BepInEx.Unity.dll
 /home/ecorous/temp/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.csproj.CopyComplete
 /home/ecorous/temp/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.dll
+C:\Users\reddust9\7in7\day3\ExampleMod\bin\Release\netstandard2.0\ExampleMod.deps.json
+C:\Users\reddust9\7in7\day3\ExampleMod\bin\Release\netstandard2.0\ExampleMod.dll
+C:\Users\reddust9\7in7\day3\ExampleMod\bin\Release\netstandard2.0\0Harmony.dll
+C:\Users\reddust9\7in7\day3\ExampleMod\bin\Release\netstandard2.0\BepInEx.Core.dll
+C:\Users\reddust9\7in7\day3\ExampleMod\bin\Release\netstandard2.0\BepInEx.Unity.dll
+C:\Users\reddust9\7in7\day3\ExampleMod\obj\Release\netstandard2.0\ExampleMod.csproj.AssemblyReference.cache
+C:\Users\reddust9\7in7\day3\ExampleMod\obj\Release\netstandard2.0\ExampleMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reddust9\7in7\day3\ExampleMod\obj\Release\netstandard2.0\ExampleMod.AssemblyInfoInputs.cache
+C:\Users\reddust9\7in7\day3\ExampleMod\obj\Release\netstandard2.0\ExampleMod.AssemblyInfo.cs
+C:\Users\reddust9\7in7\day3\ExampleMod\obj\Release\netstandard2.0\ExampleMod.csproj.CoreCompileInputs.cache
+C:\Users\reddust9\7in7\day3\ExampleMod\obj\Release\netstandard2.0\ExampleMod.csproj.CopyComplete
+C:\Users\reddust9\7in7\day3\ExampleMod\obj\Release\netstandard2.0\ExampleMod.dll

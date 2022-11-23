@@ -696,14 +696,14 @@
   "project": {
     "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\reddust9\\7in7\\day1\\ExampleMod\\ExampleMod.csproj",
+      "projectUniqueName": "C:\\Users\\reddust9\\7in7\\day3\\ExampleMod\\ExampleMod.csproj",
       "projectName": "ExampleMod",
-      "projectPath": "C:\\Users\\reddust9\\7in7\\day1\\ExampleMod\\ExampleMod.csproj",
+      "projectPath": "C:\\Users\\reddust9\\7in7\\day3\\ExampleMod\\ExampleMod.csproj",
       "packagesPath": "C:\\Users\\reddust9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\reddust9\\7in7\\day1\\ExampleMod\\obj\\",
+      "outputPath": "C:\\Users\\reddust9\\7in7\\day3\\ExampleMod\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\reddust9\\7in7\\day1\\NuGet.Config",
+        "C:\\Users\\reddust9\\7in7\\day3\\NuGet.Config",
         "C:\\Users\\reddust9\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [

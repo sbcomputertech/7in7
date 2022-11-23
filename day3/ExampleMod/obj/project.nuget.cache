@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nj8aNBm4cNa8xoBr2M8fR7IlHF7rx3vZZJdiuF0TogP0KpA+BYK4fm0ok1omnc/yYJPH6+24GV8hmAn7dPkGJw==",
+  "dgSpecHash": "VLAuYeHttrN5SnaydOQFxz4VRWm9XawVcj8pQaeEe4ag0OCaMtSVwCkxmC1VcWNo7egeZZAlNA20fQ3iGyXJ/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\reddust9\\7in7\\day1\\ExampleMod\\ExampleMod.csproj",
+  "projectFilePath": "C:\\Users\\reddust9\\7in7\\day3\\ExampleMod\\ExampleMod.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reddust9\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\reddust9\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
