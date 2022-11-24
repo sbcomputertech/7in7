@@ -2,7 +2,7 @@
 ### All the builds will be released at the end of the challenge
 
 - Day 1: Every weapon has ridiculously high recoil
-- Day 2: 
+- Day 2: It's all giant grenades!
 - Day 3: An FPS counter that works
 - Day 4:
 - Day 5:
