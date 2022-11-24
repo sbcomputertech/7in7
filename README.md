@@ -4,7 +4,7 @@
 - Day 1: Every weapon has ridiculously high recoil
 - Day 2: It's all giant grenades!
 - Day 3: An FPS counter that works
-- Day 4: ???
+- Day 4: Jumping and jump pads make you go to the moon and back
 - Day 5: ???
 - Day 6: ???
 - Day 7: ???
