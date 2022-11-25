@@ -1,15 +1,22 @@
 ﻿using BepInEx;
 using HarmonyLib;
+using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace ExampleMod
 {
     [BepInPlugin(ModGuid, ModName, ModVersion)]
     public class Main : BaseUnityPlugin
     {
-        private const string ModName = "7in7 Day 4";
+        private const string ModName = "7in7 Day 5";
         private const string ModAuthor  = "reddust9";
-        private const string ModGuid = "com.reddust9.7in7.day4";
+        private const string ModGuid = "com.reddust9.7in7.day5";
         private const string ModVersion = "1.0.0";
+
+        private bool slow = false;
+        private bool speed = false;
+        private float baseTS = 0;
+        private float value = 1.75f;
         internal void Awake()
         {
             // Creating new harmony instance
@@ -18,23 +25,59 @@ namespace ExampleMod
             // Applying patches
             harmony.PatchAll();
             Logger.LogInfo($"{ModName} successfully loaded! Made by {ModAuthor}");
+
+            baseTS = Time.timeScale;
         }
 
-        [HarmonyPatch(typeof(SpiderController), "Jump")]
-        public class Patch_1
+        internal void Update()
         {
-            public static void Prefix(ref SpiderController __instance)
+            if (Keyboard.current.rKey.wasPressedThisFrame)
             {
-                __instance.jumpForce *= 1.25f;
+                SlowDown();
+            } else if (Keyboard.current.tKey.wasPressedThisFrame)
+            {
+                ResetSpeed();
+            } else if (Keyboard.current.yKey.wasPressedThisFrame)
+            {
+                SpeedUp();
             }
+            
+            TSUpdate();
         }
 
-        [HarmonyPatch(typeof(JumpPad), "Push")]
-        public class Patch_2
+        internal void SpeedUp()
         {
-            public static void Prefix(ref JumpPad __instance)
+            slow = false;
+            speed = true;
+        }
+
+        internal void SlowDown()
+        {
+            speed = false;
+            slow = true;
+        }
+
+        internal void ResetSpeed()
+        {
+            speed = false;
+            slow = false;
+        }
+
+        internal void TSUpdate()
+        {
+            if (speed)
             {
-                __instance.force *= 1.25f;
+                Time.timeScale = baseTS * value;
+            }
+
+            if (slow)
+            {
+                Time.timeScale = baseTS / value;
+            }
+
+            if (!slow && !speed)
+            {
+                Time.timeScale = baseTS;
             }
         }
     }

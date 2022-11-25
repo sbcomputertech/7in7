@@ -1,2 +1,2 @@
-Day: 4
-Idea: You jump really high, and jump pads are stronger
+Day: 5
+Idea: A way to speed up or slow down the game at will
