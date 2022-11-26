@@ -6,6 +6,6 @@
 - Day 3: An FPS counter that works
 - Day 4: Jumping and jump pads make you go to the moon and back
 - Day 5: You can control the speed of the game with the R, T and Y keys
-- Day 6: ???
+- Day 6: It's always spooky season wooooooooooooo
 - Day 7: ???
 
