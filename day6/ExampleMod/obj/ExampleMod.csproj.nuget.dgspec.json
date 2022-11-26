@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\reddust9\\7in7\\day1\\ExampleMod\\ExampleMod.csproj": {}
+    "C:\\Users\\reddust9\\7in7\\day6\\ExampleMod\\ExampleMod.csproj": {}
   },
   "projects": {
-    "C:\\Users\\reddust9\\7in7\\day1\\ExampleMod\\ExampleMod.csproj": {
+    "C:\\Users\\reddust9\\7in7\\day6\\ExampleMod\\ExampleMod.csproj": {
       "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\reddust9\\7in7\\day1\\ExampleMod\\ExampleMod.csproj",
+        "projectUniqueName": "C:\\Users\\reddust9\\7in7\\day6\\ExampleMod\\ExampleMod.csproj",
         "projectName": "ExampleMod",
-        "projectPath": "C:\\Users\\reddust9\\7in7\\day1\\ExampleMod\\ExampleMod.csproj",
+        "projectPath": "C:\\Users\\reddust9\\7in7\\day6\\ExampleMod\\ExampleMod.csproj",
         "packagesPath": "C:\\Users\\reddust9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\reddust9\\7in7\\day1\\ExampleMod\\obj\\",
+        "outputPath": "C:\\Users\\reddust9\\7in7\\day6\\ExampleMod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\reddust9\\7in7\\day1\\NuGet.Config",
-          "C:\\Users\\reddust9\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\reddust9\\7in7\\day6\\NuGet.Config",
+          "C:\\Users\\reddust9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.bepinex.dev/v3/index.json": {}
         },
@@ -68,7 +70,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
