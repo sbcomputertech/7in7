@@ -5,7 +5,7 @@ using Unity.Netcode;
 using UnityEngine;
 using Random = System.Random;
 
-namespace ExampleMod
+namespace SevenSeven.Day7
 {
     [BepInPlugin(ModGuid, ModName, ModVersion)]
     public class Main : BaseUnityPlugin

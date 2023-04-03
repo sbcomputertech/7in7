@@ -1,7 +1,7 @@
 ﻿using BepInEx;
 using HarmonyLib;
 
-namespace ExampleMod
+namespace SevenSeven.Day4
 {
     [BepInPlugin(ModGuid, ModName, ModVersion)]
     public class Main : BaseUnityPlugin

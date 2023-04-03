@@ -2,7 +2,7 @@
 using BepInEx.Logging;
 using HarmonyLib;
 
-namespace ExampleMod
+namespace SevenSeven.Day1
 {
     [BepInPlugin(ModGuid, ModName, ModVersion)]
     public class Main : BaseUnityPlugin

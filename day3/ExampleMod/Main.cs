@@ -2,7 +2,7 @@
 using HarmonyLib;
 using UnityEngine.UI;
 
-namespace ExampleMod
+namespace SevenSeven.Day3
 {
     [BepInPlugin(ModGuid, ModName, ModVersion)]
     public class Main : BaseUnityPlugin

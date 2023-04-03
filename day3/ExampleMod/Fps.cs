@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ExampleMod;
+namespace SevenSeven.Day3;
 
 public class Fps : MonoBehaviour
 {
